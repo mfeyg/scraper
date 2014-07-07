@@ -4,8 +4,9 @@ A screenscraper that accepts JSON commands
 
 ## Usage
 
-    lein run 5050
-    curl -d '[["select", ["get", "http://www.penny-arcade.com/comic/"], ["body", "img"], [0, "attrs", "src"]]]' localhost:5050
+    $ lein run 5050
+    $ curl -d '[["select", ["get", "http://www.penny-arcade.com/comic/"], ["body", "img"], [0, "attrs", "src"]]]' \
+            localhost:5050
 
 ## License
 
